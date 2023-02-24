@@ -5,7 +5,8 @@ const patterns = {
     username:/^\w{5,12}$/,
     telephone:/^\d{11}$/,
     password:/^[\w@-]{8,20}$/,
-    slug:/^[a-z\d-]{8,20}$/
+    slug:/^[a-z\d-]{8,20}$/,
+    email:/^([a-z\d\-\.\_]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
 };
 
 
